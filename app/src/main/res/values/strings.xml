@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">grpc-client-kotlin</string>
+    <string name="host">host</string>
+    <string name="port">port</string>
+    <string name="message">message</string>
+    <string name="send">send</string>
+    <string name="response">response</string>
+</resources>
