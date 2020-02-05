@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package greet;
+
+option java_package = "tutorial.grpc.client.kotlin";
+option java_outer_classname = "GreetService";
+
+
+service Greet {
+    rpc Say(Question) returns (Reply) {}
+}
+
+message Question {
+    string message = 1;
+}
+
+message Reply {
+    string message = 1;
+}
